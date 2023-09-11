@@ -15,3 +15,4 @@ export { default as About } from "./About";
 export { default as TaxSystemInfo } from "./TaxSystemInfo";
 export { default as TaxInfoLayout } from "./TaxInfoLayout";
 export { default as TaxableIncome } from "./TaxableIncome";
+export { default as PersonalAllowances } from "./PersonalAllowances";

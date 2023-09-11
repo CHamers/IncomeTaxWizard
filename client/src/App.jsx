@@ -15,7 +15,9 @@ import {
   TaxInfoLayout,
   TaxSystemInfo,
   TaxableIncome,
+  PersonalAllowances,
 } from "./pages";
+
 
 export const checkDefaultTheme = () => {
   const isDarkTheme = localStorage.getItem("dark-theme") === "true";
@@ -66,6 +68,8 @@ const router = createBrowserRouter([
             element: <TaxSystemInfo />,
           },
           { path: "taxable-income", element: <TaxableIncome /> },
+          { path: "personal-allowances", element: <PersonalAllowances /> },
+          
         ],
       },
     ],

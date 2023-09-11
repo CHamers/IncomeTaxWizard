@@ -8,6 +8,9 @@ const TaxSystemInfo = () => {
       <li>
         <Link to="/tax-info/taxable-income">Taxable Income</Link>
       </li>
+      <li>
+        <Link to="/tax-info/personal-allowances">Personal Allowances</Link>
+      </li>
     </ul>
   );
 };
